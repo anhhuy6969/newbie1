@@ -1,0 +1,67 @@
+body {
+  background-image:url("img/background.png");
+  background-size: cover;
+  font-size: 20px;
+  font-family:'Roboto', sans-serif;;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+
+}
+h2 {color: #ecba3a}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  color: white
+}
+.option {
+  width: 170px;
+  height : 100px;
+  color: white;
+}
+
+.phan1 {
+  width: 100%;
+  height: 100%;
+  color: black
+}
+
+.mieuta {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  height: 400px
+}
+.phanmota {
+position: relative;
+}
+.motabangvideo {
+position: absolute;
+left : 443px ;
+top: 200px;
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.188208);
+}
+
+.playbtn1 {
+  position: absolute;
+  left: 694px;
+  top: 331px;
+}
+
+.playbtn2 {
+  position: absolute;
+  left: 723px;
+  top: 353px;
+}
